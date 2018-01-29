@@ -46,7 +46,7 @@ class App extends Component {
          </section>
          <aside id="side-bar">
            <h3>Add a Job</h3>
-           <JobForm createJob={this.createJob} />
+           <JobForm createJob={this.createJob} titlePlaceholder={"Can I have yo Title?"} payPlaceholder={"How many dollas do you be wanting?"} descriptionPlaceholder={"Prove your awesomeness."}/>
          </aside>
        </main>
        <Footer />
