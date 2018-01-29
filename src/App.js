@@ -35,8 +35,9 @@ class App extends Component {
 
  render() {
      return (
+       <div>
+       <Header />
        <main>
-         <Header />
          <section>
            <h2>Job Listings</h2>
            <ul id="job-listings">
@@ -47,8 +48,10 @@ class App extends Component {
            <h3>Add a Job</h3>
            <JobForm createJob={this.createJob} />
          </aside>
-         <Footer />
        </main>
+       <Footer />
+       </div>
+
      );
    }
  }
